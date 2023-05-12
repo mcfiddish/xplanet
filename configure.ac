@@ -1,5 +1,5 @@
 # Process this file with autoconf to produce a configure script.
-AC_INIT(xplanet, svn-r224)
+AC_INIT([xplanet],[svn-r224])
 AC_CONFIG_SRCDIR(src/xplanet.cpp)
 AM_INIT_AUTOMAKE
 
@@ -14,8 +14,7 @@ AM_CONDITIONAL([am__fastdepOBJC], false)
 AC_PATH_PROG(PERL, perl, no)
 AC_SUBST(PERL)
 
-AC_ARG_WITH(cygwin,AC_HELP_STRING([--with-cygwin],
-	[check for Cygwin environment (YES)]))
+AC_ARG_WITH(cygwin,AS_HELP_STRING([--with-cygwin],[check for Cygwin environment (YES)]))
 
 separator="/"
 use_ar='yes'
