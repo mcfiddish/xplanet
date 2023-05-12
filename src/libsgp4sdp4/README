@@ -1,0 +1,7 @@
+This library is based on the sgp4sdp4-0.4 by Neoklis Kyriazis
+(http://www.qsl.net/5b4az/).  I made some minor
+modifications to the code in order to create a library that works on
+multiple platforms.
+
+Hari Nair
+hari@alumni.caltech.edu
