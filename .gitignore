@@ -1,0 +1,10 @@
+*.[ao]
+.deps
+autom4te.cache
+Makefile
+config.h
+config.log
+config.status
+stamp-h1
+xpDefines.h
+
